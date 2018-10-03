@@ -1,0 +1,43 @@
+.card {
+    border: 5px solid #1b2431;
+    border-radius: 8px;
+    color: white;
+    float: left;
+    padding: 10px;
+    position: relative;
+    width: 20%;
+}
+
+.blue {
+  background-color: #2298F1;
+}
+
+.card .icon {
+    color: white;
+    font-size: 28px;
+    opacity: 0.3;
+    position: absolute;
+    right: 13px;
+    top: 13px;
+  }
+
+  .card .title-card {
+    display: inline-block;
+    font-size: 8px;
+    padding: 10px 10px 0;
+    text-transform: uppercase;
+  }
+
+  .card .value {
+    font-size: 28px;
+    padding: 0 10px;
+  }
+  
+  .card .stat {
+    border-top: 1px solid rgba(255, 255, 255, 0.3);
+    font-size: 8px;
+    margin-top: 25px;
+    padding: 10px 10px 0;
+    text-transform: uppercase;
+  }
+  
